@@ -173,7 +173,7 @@ export let questions = [
         "des": "ROM stands for Read-Only Memory, which is a type of non-volatile memory used to store firmware or software that is not meant to be modified frequently."
     }, {
         "ques": "In binary numbers, what does the digit '1' represent?",
-        "opt": ["On", "Off", "Zero", "False"],
+        "opt": ["True", "Off", "Zero", "False"],
         "ans": "a",
         "des": "In binary numbers, the digit '1' represents 'On', 'True', or an active state, while '0' represents 'Off', 'False', or an inactive state."
     }, {
@@ -245,8 +245,8 @@ export let questions = [
         "des": "Shreya Ghoshal made her debut as a playback singer in the Hindi film industry with the movie 'Devdas' in 2002."
     }, {
         "ques": "Shah Rukh Khan won his first 'Filmfare Award for Best Actor' for which film?",
-        "opt": ["Baazigar", "Dilwale Dulhania Le Jayenge", "Dil Se", "Badshah"],
-        "ans": "a",
+        "opt": ["Dilwale Dulhania Le Jayenge", "Baazigar", "Dil Se", "Badshah"],
+        "ans": "b",
         "des": "Shah Rukh Khan won his first Filmfare Award for Best Actor for the film 'Baazigar' in 1993."
     }, {
         "ques": "Which was the first Indian film to get nominated for the Academy Awards?",
@@ -255,13 +255,13 @@ export let questions = [
         "des": "The first Indian film to get nominated for the Academy Awards was 'Mother India' in 1957."
     }, {
         "ques": "Music composer AR Rahman won the Academy Award for 'Best Original Song' for which song?",
-        "opt": ["Jai Ho", "Saathiya", "Chaiyya Chaiyya", "Satrangi rey"],
-        "ans": "a",
+        "opt": ["Saathiya", "Chaiyya Chaiyya", "Satrangi rey", "Jai Ho",],
+        "ans": "d",
         "des": "AR Rahman won the Academy Award for Best Original Song for the song 'Jai Ho' from the movie 'Slumdog Millionaire' in 2009."
     }, {
         "ques": "In which film did actor Amitabh Bachchan make his debut?",
-        "opt": ["Saat Hindustani", "Anand", "Zanjeer", "Deewar"],
-        "ans": "a",
+        "opt": ["Anand", "Zanjeer","Saat Hindustani", "Deewar"],
+        "ans": "c",
         "des": "Amitabh Bachchan made his acting debut in the film 'Saat Hindustani' in 1969."
     }, {
         "ques": "What was the name of Ranbir Kapoor's character in 'Rockstar'?",
@@ -300,8 +300,8 @@ export let questions = [
         "des": "The first Indian movie to cross 100 crore worldwide was 'Disco Dancer', a 1982 film starring Mithun Chakraborty."
     }, {
         "ques": "Which Indian singer has the most followers on Spotify?",
-        "opt": ["Arijit Singh", "Sonu Nigam", "A. R. Rahman", "Shreya Ghoshal"],
-        "ans": "a",
+        "opt": ["Shreya Ghoshal", "Sonu Nigam", "A. R. Rahman", "Arijit Singh"],
+        "ans": "d",
         "des": "As of now (2024), Arijit Singh has the most followers on Spotify among Indian singers, second in the world after Taylor Swift."
     }, {
         "ques": "Who is the only Indian to win an Honorary Oscar Award?",

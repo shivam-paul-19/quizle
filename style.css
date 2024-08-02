@@ -277,4 +277,13 @@ a {
     .nav {
         justify-content: center;
     }
+
+    .ques {
+        height: 100px;
+        /* background-color: yellow; */
+    }
+
+    .rule-box {
+        margin-top: 300px;
+    }
 }
