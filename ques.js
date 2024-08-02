@@ -231,6 +231,82 @@ export let questions = [
         "opt": ["Queue", "Stack", "Linked List", "Array"],
         "ans": "b",
         "des": "A Stack is a data structure that uses the LIFO (Last In, First Out) property. This means that the most recently added item is the first to be removed."
-    }    
-    
+    },
+    // bollywood
+    {
+        "ques": "Which was the first Hindi movie for AR Rehman as a music director?",
+        "opt": ["Roja", "Bombay", "Rangeela", "Dil Se"],
+        "ans": "a",
+        "des": "AR Rahman made his debut as a music director in the Hindi film industry with the movie 'Roja' in 1992, directed by Mani Ratnam."
+    }, {
+        "ques": "In which Hindi film did Shreya Ghoshal make her debut as a playback singer?",
+        "opt": ["Devdas", "Lagaan", "My name is khan", "Dil Se"],
+        "ans": "a",
+        "des": "Shreya Ghoshal made her debut as a playback singer in the Hindi film industry with the movie 'Devdas' in 2002."
+    }, {
+        "ques": "Shah Rukh Khan won his first 'Filmfare Award for Best Actor' for which film?",
+        "opt": ["Baazigar", "Dilwale Dulhania Le Jayenge", "Dil Se", "Badshah"],
+        "ans": "a",
+        "des": "Shah Rukh Khan won his first Filmfare Award for Best Actor for the film 'Baazigar' in 1993."
+    }, {
+        "ques": "Which was the first Indian film to get nominated for the Academy Awards?",
+        "opt": ["Mother India", "Lagaan", "Salaam Bombay!", "Devdas"],
+        "ans": "a",
+        "des": "The first Indian film to get nominated for the Academy Awards was 'Mother India' in 1957."
+    }, {
+        "ques": "Music composer AR Rahman won the Academy Award for 'Best Original Song' for which song?",
+        "opt": ["Jai Ho", "Saathiya", "Chaiyya Chaiyya", "Satrangi rey"],
+        "ans": "a",
+        "des": "AR Rahman won the Academy Award for Best Original Song for the song 'Jai Ho' from the movie 'Slumdog Millionaire' in 2009."
+    }, {
+        "ques": "In which film did actor Amitabh Bachchan make his debut?",
+        "opt": ["Saat Hindustani", "Anand", "Zanjeer", "Deewar"],
+        "ans": "a",
+        "des": "Amitabh Bachchan made his acting debut in the film 'Saat Hindustani' in 1969."
+    }, {
+        "ques": "What was the name of Ranbir Kapoor's character in 'Rockstar'?",
+        "opt": ["Janardan Jakhar", "Jayesh Jaitley", "Jagdish Joshi", "Jatin Jain"],
+        "ans": "a",
+        "des": "In 'Rockstar', Ranbir Kapoor played the character named Janardan Jakhar, who later adopts the stage name Jordan."
+    }, {
+        "ques": "In the film 'Tamasha', where does the lead couple first meet, which also serves as a significant shooting location?",
+        "opt": ["Paris", "Corsica", "Rome", "Barcelona"],
+        "ans": "b",
+        "des": "In 'Tamasha', the lead couple, played by Ranbir Kapoor and Deepika Padukone, first meet in Corsica, which also serves as a significant shooting location for the film."
+    }, {
+        "ques": "Which Bollywood movie featured the iconic dialogue 'Mogambo Khush Hua'?",
+        "opt": ["Sholay", "Mr. India", "Deewar", "Don"],
+        "ans": "b",
+        "des": "The iconic dialogue 'Mogambo Khush Hua' was featured in the movie 'Mr. India'."
+    }, {
+        "ques": "Which Bollywood movie had the song 'Chaiyya Chaiyya'?",
+        "opt": ["Dil Se", "Kabhi Khushi Kabhie Gham", "Bombay", "Rangeela"],
+        "ans": "a",
+        "des": "The song 'Chaiyya Chaiyya' from the movie 'Dil Se' directed by Mani Ratnam, became an international hit."
+    }, {
+        "ques": "What is the real name of Kishore Kumar?",
+        "opt": ["Kumudlal Ganguly", "Ashok Kumar Ganguly", "Kalyan Kumar Ganguly", "Abhas Kumar Ganguly"],
+        "ans": "d",
+        "des": "The real name of Kishore Kumar is Abhas Kumar Ganguly, who was a renowned playback singer and actor in Indian cinema."
+    }, {
+        "ques": "Which singer holds the guinness book record for recording most songs in a day?",
+        "opt": ["Kishore Kumar", "Udit Narayan", "Kumar Sanu", "Alka Yagnik"],
+        "ans": "c",
+        "des": "Kumar Sanu is the world record holder for recording 28 songs in a single day. He made this record in 1993."
+    }, {
+        "ques": "Which was the first Indian movie to cross 100 crore worldwide?",
+        "opt": ["Disco Dancer", "Sholay", "Dilwale Dulhania Le Jayenge", "Ghajini"],
+        "ans": "a",
+        "des": "The first Indian movie to cross 100 crore worldwide was 'Disco Dancer', a 1982 film starring Mithun Chakraborty."
+    }, {
+        "ques": "Which Indian singer has the most followers on Spotify?",
+        "opt": ["Arijit Singh", "Sonu Nigam", "A. R. Rahman", "Shreya Ghoshal"],
+        "ans": "a",
+        "des": "As of now (2024), Arijit Singh has the most followers on Spotify among Indian singers, second in the world after Taylor Swift."
+    }, {
+        "ques": "Who is the only Indian to win an Honorary Oscar Award?",
+        "opt": ["Satyajit Ray", "A. R. Rahman", "Raj Kapoor", "Lata Mangeshkar"],
+        "ans": "a",
+        "des": "Satyajit Ray is the only Indian to win an Honorary Oscar Award. He received the award in 1992 for his lifetime achievements in Film making."
+    }        
 ]

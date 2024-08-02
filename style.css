@@ -75,15 +75,6 @@ a {
     height: 90%;
 }
 
-@media (max-width: 1000px) {
-    .bg-des {
-        display: none;
-    }
-
-    .home-logo-sec {
-        width: 100%;
-    }
-}
 
 .quiz-page {
     background-color: #160C28;
@@ -155,7 +146,7 @@ a {
 
 .animated-timer {
     animation-name: timer;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -183,8 +174,8 @@ a {
     color: white;
 }
 
-.start-q {
-    margin-top: 2rem;
+.start-q, .back {
+    margin-top: 1.5rem;
 }
 
 @keyframes timer {
@@ -238,4 +229,52 @@ a {
 
 .msg {
     font-size: 30px;
+}
+
+@media (max-width: 1000px) {
+    .bg-des {
+        display: none;
+    }
+
+    .home-logo-sec {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav-tab-box {
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .nav {
+        height: 200px;
+        align-items: center;
+    }
+
+    .nav-tab {
+        text-align: center;
+    }
+
+    .main-con {
+        top: 200px;
+    }
+}
+
+@media (max-width: 410px) {
+    .nav img {
+        display: none;
+    }
+
+    .nav-tab {
+        text-align: center;
+    }
+
+    .nav-tab-box {
+        margin: 0;
+    }
+
+    .nav {
+        justify-content: center;
+    }
 }

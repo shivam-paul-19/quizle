@@ -60,6 +60,18 @@ if(topic == "programming") {
     }    
 }
 
+if(topic == "bollywood") {
+    if(result.correct >= 8) {
+        msg.innerHTML = "Woah! Seems you love to watch Bollywood films and explore Bollywood stories.";
+    } else if(result.correct >= 5) {
+        msg.innerHTML = "Good! You must have a solid knowledge of Bollywood films and stars.";
+    } else if(result.correct >= 3) {
+        msg.innerHTML = "Nice try! You have some knowledge of Bollywood. Keep exploring!";
+    } else {
+        msg.innerHTML = "It looks like Bollywood isn't your interest. No worries, there's always room to learn more!";
+    }    
+}
+
 if(topic == "all") {
     if(result.correct >= 8) {
         msg.innerHTML = "Woah! Such a pure genius";

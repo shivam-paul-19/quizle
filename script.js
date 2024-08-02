@@ -16,7 +16,9 @@ for (let tab of tabs) {
             end = 15;
             topic = "cricket";
         } else if (clicked === "bol") {
-            console.log("in progress");
+            start = 46;
+            end = 60;
+            topic = "bollywood";
         } else if (clicked === "prog") {
             start = 31;
             end = 45;
@@ -33,7 +35,7 @@ let rand_q = document.querySelector("#random");
 try { 
     rand_q.addEventListener("click", () => {
         start = 0;
-        end = 45;
+        end = 60;
         topic = "all";
         localStorage.setItem("start", start);
         localStorage.setItem("end", end);

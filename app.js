@@ -1,5 +1,5 @@
 import {questions} from './ques.js';
-import {getStart, getEnd} from './script.js';
+import {getStart, getEnd, getTopic} from './script.js';
 
 function shuffle(array) {
     let currentIndex = array.length;
@@ -35,7 +35,25 @@ let clicked = null;
 let un_ans = 0;
 let wrong = 0;
 
+try {
+    let title = document.querySelector("title");
+    if(getTopic() == "cricket") {
+        title.innerHTML = "Cricket Quiz";
+    } else if(getTopic() == "science") {
+        title.innerHTML = "Science Quiz";
+    } else if(getTopic() == "bollywood") {
+        title.innerHTML = "Bollywood Quiz";
+    } else if(getTopic() == "programming") {
+        title.innerHTML = "Programming Quiz";
+    } else {
+        title.innerHTML = "Random Quiz";
+    }
+} catch {
+    console.log("ignoring this");
+}
+
 let start_btn = document.querySelector(".start-q");
+let back_btn = document.querySelector(".back");
 try{
     start_btn.addEventListener("click", () => {
         let rbox = document.querySelector(".rule-box");
@@ -45,6 +63,14 @@ try{
             opts[j].classList.add("opt-visible");
         }
         ask(0);
+    });
+} catch {
+    console.log("just pass this");
+}
+
+try{
+    back_btn.addEventListener("click", () => {
+        window.location.replace("index.html");
     });
 } catch {
     console.log("just pass this");
@@ -68,7 +94,7 @@ try {
 function startTime() {
     setTimeout(() => {
         submit(isAns, clicked);
-    }, 10000);
+    }, 15000);
 }
 
 function submit(isAns, clicked) {
